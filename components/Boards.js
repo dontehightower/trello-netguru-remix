@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import StyledBoards from '../styles/Boards';
-import Copy from '../styles/Copy';
+import { H2, Copy } from '../styles/Typography';
 
 const Boards = () => (
   <StyledBoards>
@@ -11,7 +11,7 @@ const Boards = () => (
         alt="Boards Icon"
         style={{ width: '5rem', marginBottom: '2.4rem' }}
       />
-      <h2 className="heading-secondary">Boards</h2>
+      <H2>Boards</H2>
       <Copy>
         Every board gets assigned an individual and universal colour. Thanks to this, you can
         conveniently navigate all the different projects.

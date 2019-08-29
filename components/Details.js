@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import StyledDetails from '../styles/Details';
-import Copy from '../styles/Copy';
+import { H2, Copy } from '../styles/Typography';
 
 const Details = () => (
   <StyledDetails>
@@ -11,7 +11,7 @@ const Details = () => (
         alt="Details Icon"
         style={{ width: '5rem', marginBottom: '2.4rem' }}
       />
-      <h2 className="heading-secondary">Details</h2>
+      <H2>Details</H2>
       <Copy>
         You can now conveniently check the global number of tasks or see the most active users.
         There's also a special individual summary view just for you, which gives you an overview of

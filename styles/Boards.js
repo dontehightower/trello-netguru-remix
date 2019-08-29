@@ -14,23 +14,6 @@ const StyledBoards = styled.section`
   .text {
     width: 48rem;
   }
-  .copy {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    margin-bottom: 2.4rem;
-    color: #3d4568;
-  }
-
-  .heading-secondary {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.4rem;
-    font-weight: 600;
-    color: #3d4568;
-    line-height: 1.2;
-    margin-bottom: 1.6rem;
-    letter-spacing: 0.5px;
-  }
 `;
 
 export default StyledBoards;
