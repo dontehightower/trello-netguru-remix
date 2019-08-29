@@ -12,7 +12,7 @@ const StyledBoards = styled.section`
   background-size: cover;
 
   .text {
-    width: 56rem;
+    width: 48rem;
   }
   .copy {
     font-family: 'Poppins', sans-serif;

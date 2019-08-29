@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
-import StyledBoards from '../styles/Boards.js';
+import StyledBoards from '../styles/Boards';
+import Copy from '../styles/Copy';
 
 const Boards = () => (
   <StyledBoards>
@@ -11,10 +12,10 @@ const Boards = () => (
         style={{ width: '5rem', marginBottom: '2.4rem' }}
       />
       <h2 className="heading-secondary">Boards</h2>
-      <p className="copy">
+      <Copy>
         Every board gets assigned an individual and universal colour. Thanks to this, you can
         conveniently navigate all the different projects.
-      </p>
+      </Copy>
       <Button>Find Out More</Button>
     </div>
   </StyledBoards>
