@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Boards from '../components/Boards';
+import Details from '../components/Details';
 import StyledLanding from '../styles/Landing';
 
 const Home = () => (
@@ -33,6 +34,7 @@ const Home = () => (
       <Navbar />
       <Hero />
       <Boards />
+      <Details />
     </StyledLanding>
   </div>
 );
