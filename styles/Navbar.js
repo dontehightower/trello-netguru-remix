@@ -15,6 +15,23 @@ const StyledNavbar = styled.header`
       height: 2.4rem;
     }
 
+    /* Center portion of the Navbar */
+    &__list {
+      list-style: none;
+      width: 15rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      &--link {
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1.4rem;
+        color: #fff;
+      }
+    }
+
+    /* Links on the right (Login/Sign up) */
     &__cta {
       text-decoration: none;
       font-weight: 700;
@@ -26,10 +43,12 @@ const StyledNavbar = styled.header`
         text-decoration: none;
         text-transform: uppercase;
         color: #fff;
+        font-family: 'Lato', sans-serif;
       }
       &--primary {
         text-decoration: none;
         background-color: #4680ff;
+        font-family: 'Lato', sans-serif;
         color: #fff;
         padding: 0.75rem 2.5rem;
         margin-left: 1.6rem;
@@ -44,19 +63,6 @@ const StyledNavbar = styled.header`
         &:hover {
           box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.225);
         }
-      }
-    }
-    &__list {
-      list-style: none;
-      width: 15rem;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      &--link {
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1.4rem;
-        color: #fff;
       }
     }
   }
