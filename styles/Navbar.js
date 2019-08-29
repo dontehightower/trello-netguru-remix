@@ -23,9 +23,8 @@ const StyledNavbar = styled.header`
       flex-direction: row;
       justify-content: space-between;
       &--link {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Poppins', sans-serif;
         text-decoration: none;
-        font-weight: 700;
         font-size: 1.4rem;
         color: #fff;
       }
@@ -34,28 +33,26 @@ const StyledNavbar = styled.header`
     /* Links on the right (Login/Sign up) */
     &__cta {
       text-decoration: none;
-      font-weight: 700;
       font-size: 1.4rem;
       color: #fff;
       &--secondary {
-        font-weight: 600;
         font-size: 1.4rem;
         text-decoration: none;
         text-transform: uppercase;
         color: #fff;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Poppins', sans-serif;
       }
       &--primary {
         text-decoration: none;
         background-color: #4680ff;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Poppins', sans-serif;
         color: #fff;
         padding: 0.75rem 2.5rem;
         margin-left: 1.6rem;
         min-height: 4rem;
         border: none;
         border-radius: 2px;
-        letter-spacing: 0.1rem;
+        letter-spacing: 0.5px;
         font-weight: 600;
         text-transform: uppercase;
         cursor: pointer;
