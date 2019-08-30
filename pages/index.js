@@ -4,6 +4,9 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Boards from '../components/Boards';
 import Details from '../components/Details';
+import Calendar from '../components/Calendar';
+import ClientSection from '../components/ClientSection';
+import Footer from '../components/Footer';
 import StyledLanding from '../styles/Landing';
 
 const Home = () => (
@@ -35,6 +38,9 @@ const Home = () => (
       <Hero />
       <Boards />
       <Details />
+      <Calendar />
+      <ClientSection />
+      <Footer />
     </StyledLanding>
   </div>
 );
