@@ -13,7 +13,7 @@
     "@apollo/react-hooks": "^3.0.1",
     "apollo-boost": "^0.4.4",
     "graphql": "^14.5.3",
-    "next": "9.0.5",
+    "next": "11.1.0",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "styled-components": "^4.3.2"
